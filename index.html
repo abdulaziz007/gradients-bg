@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/abdulaziz007/gradients-bg/main/store.taziz.png" />
+    <link rel="icon" type="image/png" href="/storetaziz.png" />
+    <meta property="og:title" content="متجر تعزيز المستقبل" />
+    <meta property="og:image" content="/storetaziz.png" />
+    <meta property="og:description" content="متجر تعزيز المستقبل" />
+    <meta property="og:url" content="https://store.taziz.tech" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="متجر تعزيز المستقبل لبيع المنتجات الرقمية">
     <title>متجر تعزيز</title>
@@ -10,30 +18,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-  <div class="text-container">
-    متجر تعزيز
-  </div>
-  <div class="gradient-bg">
-    <svg xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="goo">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-          <feBlend in="SourceGraphic" in2="goo" />
-        </filter>
-      </defs>
-    </svg>
-    <div class="gradients-container">
-      <div class="g1"></div>
-      <div class="g2"></div>
-      <div class="g3"></div>
-      <div class="g4"></div>
-      <div class="g5"></div>
-      <div class="interactive"></div>
+</head>
+
+<body>
+    <div class="text-container">
+        متجر تعزيز
     </div>
-  </div>
+    <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                        result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+        </svg>
+        <div class="gradients-container">
+            <div class="g1"></div>
+            <div class="g2"></div>
+            <div class="g3"></div>
+            <div class="g4"></div>
+            <div class="g5"></div>
+            <div class="interactive"></div>
+        </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
-  </body>
+</body>
+
 </html>
